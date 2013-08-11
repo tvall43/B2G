@@ -117,6 +117,21 @@ case "$1" in
 	repo_sync $1
 	;;
 
+"vm670")
+	echo DEVICE=vm670 >> .tmp-config &&
+	repo_sync $1
+	;;
+
+"dream")
+	echo DEVICE=dream >> .tmp-config &&
+	repo_sync $1
+	;;
+
+"shootervm")
+	echo DEVICE=shootervm >> .tmp-config &&
+	repo_sync $1
+	;;
+
 "emulator"|"emulator-jb")
 	echo DEVICE=generic >> .tmp-config &&
 	echo LUNCH=full-eng >> .tmp-config &&
@@ -150,6 +165,9 @@ case "$1" in
 	echo - wasabi
 	echo - tara
 	echo - pandaboard
+	echo - vm670
+	echo - g1
+	echo - shootervm
 	echo - emulator
 	echo - emulator-jb
 	echo - emulator-x86
