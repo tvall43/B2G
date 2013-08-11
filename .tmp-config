@@ -1,0 +1,4 @@
+MAKE_FLAGS=-j4
+GECKO_OBJDIR=/home/tim/src/b2g/B2G/objdir-gecko
+DEVICE_NAME=shootervm
+DEVICE=shootervm
