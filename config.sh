@@ -166,7 +166,7 @@ case "$1" in
 	echo - tara
 	echo - pandaboard
 	echo - vm670
-	echo - g1
+	echo - dream
 	echo - shootervm
 	echo - emulator
 	echo - emulator-jb
